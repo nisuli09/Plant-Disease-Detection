@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+
+# Dataset images
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.JPG
+dataset/**/*.JPEG
+dataset/**/*.PNG
+
+# Generated model files
+model/*.keras
+model/*.h5
+model/*.json
+
+# Local IDE/system files
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>🌿 Plant Disease Detection</h1>
+            <p class="subtitle">Upload a plant leaf image to predict whether it is healthy or diseased.</p>
+
+            <label class="upload-box" for="imageInput">
+                <span>Choose a leaf image</span>
+                <small>JPG, JPEG or PNG</small>
+            </label>
+            <input id="imageInput" type="file" accept="image/*" hidden>
+
+            <img id="preview" class="preview hidden" alt="Selected leaf">
+
+            <button id="predictBtn" disabled>Predict</button>
+
+            <div id="result" class="result hidden"></div>
+        </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
