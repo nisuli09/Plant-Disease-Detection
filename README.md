@@ -4,7 +4,7 @@ A simple end-to-end computer vision project that uses a Convolutional Neural Net
 
 ## Project Overview
 
-The system follows this workflow:
+
 
 ```text
 Leaf Image
@@ -50,14 +50,5 @@ plant-disease-detection/
 └── requirements.txt
 ```
 
-## Dataset
-
-This project expects two classes:
-
-```text
-dataset/
-├── healthy/
-└── diseased/
-```
 
 
